@@ -109,8 +109,13 @@ ENV/
 # Node project dependencies and settings
 node_modules/
 
+<<<<<<< HEAD
 config.py
 <<<<<<< HEAD
 =======
 
 >>>>>>> c0fd0fc8e4a78041beaa02176fb0ed985fee272f
+=======
+*.pdf
+*.txt
+>>>>>>> data_analysis_Tao
