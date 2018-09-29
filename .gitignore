@@ -109,5 +109,4 @@ ENV/
 # Node project dependencies and settings
 node_modules/
 
-*.pdf
-*.txt
+congig.py
