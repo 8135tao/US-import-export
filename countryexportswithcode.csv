@@ -1,0 +1,232 @@
+Country,Country Code,Average Exports
+Canada,CAN,2.71E+11
+Mexico,MEX,1.97E+11
+China,CHN,1.01E+11
+Japan,JPN,6.35E+10
+United Kingdom,GBR,5.25E+10
+Germany,DEU,4.94E+10
+South Korea,KOR,4.02E+10
+Netherlands,NLD,3.90E+10
+Hong Kong,HKG,3.26E+10
+Brazil,BRA,3.55E+10
+France,FRA,2.96E+10
+Belgium,BEL,2.94E+10
+Singapore,SGP,2.84E+10
+Taiwan,TWN,2.50E+10
+India,IND,2.04E+10
+Australia,AUS,2.42E+10
+Switzerland,CHE,2.21E+10
+United Arab Emirates,ARE,1.81E+10
+Italy,ITA,1.58E+10
+Saudi Arabia,SAU,1.54E+10
+Chile,CHL,1.37E+10
+Colombia,COL,1.39E+10
+Malaysia,MYS,1.27E+10
+Israel,ISR,1.31E+10
+Spain,ESP,1.03E+10
+Thailand,THA,1.01E+10
+Ireland,IRL,8.07E+09
+Turkey,TUR,1.03E+10
+Argentina,ARG,8.65E+09
+Peru,PER,7.74E+09
+Philippines,PHL,7.85E+09
+Viet Nam,VNM,5.14E+09
+Dominican Republic,DOM,6.96E+09
+Russian Federation,RUS,8.07E+09
+Guatemala,GTM,5.38E+09
+Indonesia,IDN,6.77E+09
+Panama,PAN,7.07E+09
+Costa Rica,CRI,5.98E+09
+Norway,NOR,3.76E+09
+Kuwait,KWT,2.98E+09
+Honduras,HND,5.06E+09
+South Africa,ZAF,5.97E+09
+Ecuador,ECU,5.39E+09
+Poland,POL,3.49E+09
+Austria,AUT,3.32E+09
+Venezuela,VEN,1.04E+10
+Egypt,EGY,5.36E+09
+New Zealand,NZL,3.24E+09
+Sweden,SWE,4.50E+09
+Qatar,QAT,3.63E+09
+El Salvador,SLV,2.86E+09
+Bahamas,BHS,2.92E+09
+Pakistan,PAK,1.89E+09
+Paraguay,PRY,1.81E+09
+Czech Republic,CZE,1.73E+09
+Morocco,MAR,1.97E+09
+Denmark,DNK,2.32E+09
+Nigeria,NGA,4.04E+09
+Jamaica,JAM,1.97E+09
+Oman,OMN,1.60E+09
+Jordan,JOR,1.48E+09
+Hungary,HUN,1.57E+09
+Trinidad and Tobago,TTO,2.19E+09
+Ukraine,UKR,1.49E+09
+Uruguay,URY,1.20E+09
+Nicaragua,NIC,1.12E+09
+Finland,FIN,2.33E+09
+Bangladesh,BGD,7.94E+08
+Haiti,HTI,1.08E+09
+Lebanon,LBN,1.36E+09
+Iraq,IRQ,1.82E+09
+Portugal,PRT,1.34E+09
+Gibraltar,GIB,2.27E+09
+Luxembourg,LUX,1.40E+09
+Algeria,DZA,1.61E+09
+Aruba,ABW,8.14E+08
+Greece,GRC,1.23E+09
+Romania,ROU,8.19E+08
+Afghanistan,AFG,1.24E+09
+Bahrain,BHR,9.88E+08
+Cayman Islands,CYM,7.01E+08
+Ethiopia,ETH,8.26E+08
+Ghana,GHA,9.15E+08
+Angola,AGO,1.43E+09
+Bermuda,BMU,6.61E+08
+Curacao,CUW,4.15E+08
+Lithuania,LTU,6.92E+08
+Bolivia,BOL,6.62E+08
+Saint Lucia,LCA,4.05E+08
+Marshall Islands,MHL,1.42E+08
+Kazakhstan,KAZ,8.29E+08
+Tunisia,TUN,6.00E+08
+Barbados,BRB,4.77E+08
+Macao,MAC,3.70E+08
+Togo,TGO,3.93E+08
+Kenya,KEN,6.45E+08
+Croatia,HRV,3.43E+08
+Slovakia,SVK,3.65E+08
+Antigua and Barbuda,ATG,2.57E+08
+Cambodia,KHM,2.46E+08
+Iceland,ISL,4.48E+08
+Georgia,GEO,4.56E+08
+Latvia,LVA,3.96E+08
+Bulgaria,BGR,3.02E+08
+Guyana,GUY,3.30E+08
+British Virgin Islands,VGB,2.60E+08
+Slovenia,SVN,3.43E+08
+Turks and Caicos Islands,TCA,2.85E+08
+Suriname,SUR,4.06E+08
+Azerbaijan,AZE,3.89E+08
+Sri Lanka,LKA,2.89E+08
+Belize,BLZ,2.80E+08
+Malta,MLT,4.39E+08
+Cuba,CUB,3.87E+08
+Turkmenistan,TKM,1.70E+08
+Estonia,EST,2.56E+08
+Benin,BEN,5.17E+08
+Guadeloupe,GLP,3.26E+08
+Saint Kitts and Nevis,KNA,1.41E+08
+Myanmar,MMR,9.31E+07
+Senegal,SEN,1.90E+08
+Yemen,YEM,3.72E+08
+Mozambique,MOZ,2.57E+08
+Dominica,DMA,8.45E+07
+Martinique,MTQ,2.65E+08
+French Guiana,GUF,2.90E+08
+Cameroon,CMR,2.03E+08
+Djibouti,DJI,1.34E+08
+Tanzania,TZA,2.15E+08
+Liberia,LBR,1.59E+08
+Uzbekistan,UZB,1.94E+08
+"Iran, Islamic Rep.",IRN,2.63E+08
+Libya,LBY,4.88E+08
+Mauritania,MRT,1.50E+08
+Serbia,SRB,1.33E+08
+Brunei Darussalam,BRN,2.54E+08
+French Polynesia,PYF,1.22E+08
+Namibia,NAM,1.89E+08
+Congo,COG,2.15E+08
+Equatorial Guinea,GNQ,3.09E+08
+Uganda,UGA,9.47E+07
+Papua New Guinea,PNG,1.80E+08
+Guinea,GIN,1.12E+08
+Grenada,GRD,8.29E+07
+Botswana,BWA,6.00E+07
+Gabon,GAB,2.55E+08
+Zambia,ZMB,9.50E+07
+Cyprus,CYP,1.48E+08
+Mongolia,MNG,1.70E+08
+Saint Vincent and the Grenadines,VCT,8.62E+07
+Sierra Leone,SLE,7.38E+07
+Congo,COG,1.30E+08
+Nepal,NPL,3.78E+07
+Belarus,BLR,1.16E+08
+Somalia,SOM,2.90E+07
+Sudan,SDN,8.15E+07
+Fiji,FJI,5.30E+07
+Rwanda,RWA,4.12E+07
+Albania,ALB,4.90E+07
+Mali,MLI,4.98E+07
+Mauritius,MUS,5.80E+07
+Burkina Faso,BFA,4.67E+07
+Anguilla,AIA,5.09E+07
+New Caledonia,NCL,8.47E+07
+Armenia,ARM,8.29E+07
+Madagascar,MDG,6.42E+07
+"Micronesia, Federated States of",FSM,4.48E+07
+Niger,NER,5.44E+07
+Monaco,MCO,9.03E+07
+"Macedonia, FYR",MKD,3.59E+07
+Zimbabwe,ZWE,6.21E+07
+Gambia,GMB,3.28E+07
+Samoa,WSM,2.33E+07
+British Indian Ocean Territory,IOT,5.07E+06
+Bhutan,BTN,5.90E+06
+Maldives,MDV,2.90E+07
+Chad,TCD,5.29E+07
+Malawi,MWI,4.65E+07
+Liechtenstein,LIE,2.94E+07
+Bosnia and Herzegovina,BIH,2.80E+07
+Kyrgyzstan,KGZ,6.66E+07
+Lao People's Democratic Republic,LAO,2.28E+07
+Swaziland,SWZ,2.42E+07
+Palau,PLW,1.82E+07
+Tajikistan,TJK,5.18E+07
+Moldova,MDA,3.55E+07
+Tonga,TON,1.74E+07
+Seychelles,SYC,1.62E+07
+South Sudan,SSD,1.29E+07
+Central African Republic,CAF,1.79E+07
+Kosovo,XKX,1.20E+07
+Greenland,GRL,1.20E+07
+Montserrat,MSR,7.55E+06
+Solomon Islands,SLB,6.87E+06
+Montenegro,MNE,2.32E+07
+Cape Verde,CPV,8.64E+06
+Reunion,REU,6.16E+07
+Burundi,BDI,1.22E+07
+Vanuatu,VUT,2.66E+07
+Syrian Arab Republic,SYR,1.70E+08
+Cook Islands,COK,4.13E+06
+Eritrea,ERI,6.42E+06
+Kiribati,KIR,5.39E+06
+Guinea-Bissau,GNB,5.96E+06
+Andorra,AND,6.70E+06
+Sao Tome and Principe,STP,3.01E+06
+French Southern Territories,ATF,3.15E+06
+Timor-Leste,TLS,3.77E+06
+San Marino,SMR,5.30E+06
+Faroe Islands,FRO,4.20E+06
+Svalbard and Jan Mayen,SJM,1.94E+06
+Lesotho,LSO,6.83E+06
+Comoros,COM,1.54E+06
+Tokelau,TKL,1.24E+07
+Holy See (Vatican City State),VAT,4.95E+06
+Tuvalu,TUV,5.46E+05
+Saint Helena,SHN,2.19E+06
+West Bank and Gaza,PSE,7.23E+05
+Mayotte,MYT,4.87E+06
+Falkland Islands (Malvinas),FLK,2.65E+06
+Christmas Island,CXR,2.50E+06
+Cocos (Keeling) Islands,CCK,3.30E+06
+Western Sahara,ESH,1.56E+05
+Saint Pierre and Miquelon,SPM,1.83E+05
+Wallis and Futuna,WLF,4.60E+05
+Nauru,NRU,2.93E+06
+Norfolk Island,NFK,1.13E+06
+Heard Island and Mcdonald Islands,HMD,1.52E+06
+Niue,NIU,6.40E+05
+North Korea,PSS,1.04E+07
+United States,USA,1.00E+00
