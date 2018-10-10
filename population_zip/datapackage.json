@@ -1,0 +1,253 @@
+{
+  "bytes": 2295116,
+  "datahub": {
+    "created": "2017-11-08T21:34:31.293995",
+    "findability": "published",
+    "flowid": "core/population/10",
+    "modified": "2018-06-27T15:03:29.193711",
+    "owner": "core",
+    "ownerid": "core"
+  },
+  "description": "Population figures for countries, regions (e.g. Asia) and the world. Data comes originally from World Bank and has been converted into standard CSV.",
+  "hash": "5e62669011a97c2b6653d5e1758ff9c6",
+  "id": "core/population",
+  "keywords": [
+    "Population",
+    "World",
+    "Time series"
+  ],
+  "last_updated": "2012-10-18",
+  "licenses": [
+    {
+      "name": "ODC-PDDL-1.0",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License v1.0"
+    }
+  ],
+  "name": "population",
+  "resources": [
+    {
+      "bytes": 472394,
+      "datahub": {
+        "type": "original"
+      },
+      "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/c8df6fc75bdf8cbdb0052140b7eeba7f.csv",
+      "encoding": "UTF-8",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "name": "population_original",
+      "path": "archive/population.csv",
+      "pathType": "local",
+      "profile": "data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Country Name",
+            "type": "string"
+          },
+          {
+            "name": "Country Code",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "bytes": 598,
+      "datahub": {
+        "type": "derived/report"
+      },
+      "description": "Validation report for tabular data",
+      "dpp:streamedFrom": "/tmp/tmpczvfdr32/core/population/validation_report/data/5872d577f7f60a2cbe4296953a0b69c0/validation_report.json",
+      "format": "json",
+      "hash": "5872d577f7f60a2cbe4296953a0b69c0",
+      "name": "validation_report",
+      "path": "data/validation_report.json",
+      "profile": "data-resource"
+    },
+    {
+      "bytes": 472394,
+      "datahub": {
+        "derivedFrom": [
+          "population"
+        ],
+        "type": "derived/csv"
+      },
+      "dialect": {
+        "delimiter": ",",
+        "doubleQuote": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "dpp:streamedFrom": "/tmp/tmpczvfdr32/core/population/population_csv/data/ead5be05591360d33ad1a37382f8f8b1/population_csv.csv",
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "ead5be05591360d33ad1a37382f8f8b1",
+      "mediatype": "text/csv",
+      "name": "population_csv",
+      "path": "data/population_csv.csv",
+      "pathType": "local",
+      "profile": "data-resource",
+      "rowcount": 14885,
+      "schema": {
+        "fields": [
+          {
+            "name": "Country Name",
+            "type": "string"
+          },
+          {
+            "name": "Country Code",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "decimalChar": ".",
+            "groupChar": "",
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 1348839,
+      "datahub": {
+        "derivedFrom": [
+          "population"
+        ],
+        "type": "derived/json"
+      },
+      "dpp:streamedFrom": "/tmp/tmpczvfdr32/core/population/population_json/data/43d34c2353cbd16a0aa8cadfb193af05/population_json.json",
+      "encoding": "utf-8",
+      "format": "json",
+      "hash": "43d34c2353cbd16a0aa8cadfb193af05",
+      "mediatype": "text/csv",
+      "name": "population_json",
+      "path": "data/population_json.json",
+      "pathType": "local",
+      "profile": "data-resource",
+      "rowcount": 14885,
+      "schema": {
+        "fields": [
+          {
+            "name": "Country Name",
+            "type": "string"
+          },
+          {
+            "name": "Country Code",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 891,
+      "dpp:streamedFrom": "/tmp/tmpmn9wfhlw/README.md",
+      "format": "md",
+      "name": "readme",
+      "path": "README.md"
+    }
+  ],
+  "sources": [
+    {
+      "name": "World Bank",
+      "path": "http://data.worldbank.org/indicator/SP.POP.TOTL",
+      "title": "World Bank"
+    }
+  ],
+  "title": "Population figures for countries, regions (e.g. Asia) and the world",
+  "version": "2011",
+  "views": [
+    {
+      "name": "world-population-trend",
+      "resources": [
+        {
+          "name": "population",
+          "transform": [
+            {
+              "expression": "data['Country Code'] === 'WLD'",
+              "type": "filter"
+            }
+          ]
+        }
+      ],
+      "spec": {
+        "group": "Year",
+        "series": [
+          "Value"
+        ],
+        "type": "line"
+      },
+      "specType": "simple",
+      "title": "World population trend"
+    },
+    {
+      "name": "china-population-trend",
+      "resources": [
+        {
+          "name": "population",
+          "transform": [
+            {
+              "expression": "data['Country Code'] === 'CHN'",
+              "type": "filter"
+            }
+          ]
+        }
+      ],
+      "spec": {
+        "group": "Year",
+        "series": [
+          "Value"
+        ],
+        "type": "line"
+      },
+      "specType": "simple",
+      "title": "China population trend"
+    },
+    {
+      "name": "us-population-trend",
+      "resources": [
+        {
+          "name": "population",
+          "transform": [
+            {
+              "expression": "data['Country Code'] === 'USA'",
+              "type": "filter"
+            }
+          ]
+        }
+      ],
+      "spec": {
+        "group": "Year",
+        "series": [
+          "Value"
+        ],
+        "type": "line"
+      },
+      "specType": "simple",
+      "title": "US population trend"
+    }
+  ]
+}
