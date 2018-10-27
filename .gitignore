@@ -110,11 +110,21 @@ ENV/
 node_modules/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
 congig.py
 =======
+>>>>>>> e84e3eea3f25cad64b726c45689ee82da2b87859
 config.py
 <<<<<<< HEAD
 =======
 
 >>>>>>> c0fd0fc8e4a78041beaa02176fb0ed985fee272f
+<<<<<<< HEAD
+=======
+*.pdf
+*.txt
+>>>>>>> data_analysis_Tao
+=======
 >>>>>>> 1b096edbe6b8b1ae9d418641896968d61af180b6
+>>>>>>> e84e3eea3f25cad64b726c45689ee82da2b87859
